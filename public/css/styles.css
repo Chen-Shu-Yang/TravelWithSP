@@ -788,4 +788,9 @@ html {
         font-size: 15px;
         padding: 8px 20px;
     }
+
+    .logo a img {
+        width: 170px;
+        height: 50px;
+    }
 }
