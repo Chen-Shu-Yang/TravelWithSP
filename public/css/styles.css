@@ -256,6 +256,33 @@ html {
     color: #48817A;
 }
 
+.box-details {
+    position: relative;
+}
+
+.author {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: #48817A;
+    bottom: 6px;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    color: #fff;
+     opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.author p {
+    margin-bottom: 0;
+}
+
+.box-details:hover .author {
+    opacity: 1;
+}
+
 .articles .load-article-btn {
     display: flex;
     align-items: center;
@@ -761,7 +788,7 @@ html {
         text-align: center;
     }
 
-    .footer .footer-content .parts-2{
+    .footer .footer-content .parts-2 {
         margin-bottom: 20px;
     }
 

@@ -28,6 +28,10 @@ app.get('/', (req, res) => {
   res.sendFile('/public/html/home.html', { root: __dirname });
 });
 
+app.get('/articles', (req, res) => {
+  res.sendFile('/public/html/all-articles.html', { root: __dirname });
+});
+
 // retrieve from public folder
 app.use(serveStatic(`${__dirname}/public`));
 
