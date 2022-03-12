@@ -32,6 +32,10 @@ app.get('/articles', (req, res) => {
   res.sendFile('/public/html/all-articles.html', { root: __dirname });
 });
 
+app.get('/destinations', (req, res) => {
+  res.sendFile('/public/html/destination.html', { root: __dirname });
+});
+
 // retrieve from public folder
 app.use(serveStatic(`${__dirname}/public`));
 

@@ -1,0 +1,51 @@
+.articles .max-width {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.height {
+    min-height: 100rem;
+}
+
+.articles .right .most-popular {
+    position: sticky;
+    top: 8rem;
+}
+
+.about-side img {
+    width: 285px;
+    height: 285px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.about-side h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.about-side .btn {
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 5px 25px;
+}
+
+.about-side ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.about-side ul li {
+    padding: 5px 10px;
+    background: #48817A;
+    border-radius: 10px;
+}
+
+.about-side i {
+    color: #fff;
+}
