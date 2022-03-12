@@ -1,3 +1,124 @@
 .navbar {
     background: #091D36;
 }
+
+
+
+/* All Articles Styling */
+.all-articles {
+    padding-top: 200px;
+    padding-bottom: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.all-articles .all-articles-content-1,
+.all-articles .all-articles-content-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.all-articles-content-1 .content-1 {
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.all-articles-content-1 .content-1 .date,
+.all-articles-content-2 .content-1 .date {
+    font-size: 20px;
+}
+
+.all-articles-content-1 .content-1 h2,
+.all-articles-content-2 .content-1 h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.all-articles-content-1 .content-1 .des,
+.all-articles-content-2 .content-1 .des {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.all-articles-content-1 .content-1 .split,
+.all-articles-content-2 .content-1 .split {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.all-articles-content-1 .content-1 .btn,
+.all-articles-content-2 .content-1 .btn {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.comment-count {
+    font-size: 20px;
+}
+
+.comment-count span {
+    color: #48817A;
+}
+
+.box-content {
+    text-align: center;
+}
+
+.box-content img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.box-content p {
+    margin-bottom: 10px;
+}
+
+.box-content p span {
+    color: #48817A;
+}
+
+.all-articles-content-1 img,
+.all-articles-content-2 .content-1 img {
+    width: 100%;
+}
+
+.author p {
+    margin-bottom: 0;
+}
+
+.all-articles-content-2 .content-1 {
+    grid-row: 1 / span 2;
+    grid-column: 2 / span 2;
+}
+
+
+
+/* Pagination Styling */
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.pagination span {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #091D36;
+    margin-left: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagination span:hover {
+    background: #091D36;
+    color: #fff;
+}
