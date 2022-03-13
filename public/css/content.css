@@ -1,0 +1,198 @@
+.navbar .max-width {
+    max-width: 1300px;
+}
+
+.max-width {
+    max-width: 1100px;
+}
+
+.content .max-width {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 80px 0;
+}
+
+.home-content h1{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.article-content {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+}
+
+.article-banner {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.article-banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.left {
+    flex-basis: 20%;
+}
+
+.left-content {
+    border-right: 2px solid #D3D3D3;
+}
+
+.left .content-list {
+    margin-top: 20px;
+}
+
+.left a {
+    font-size: 13px;
+    display: block;
+    padding: 10px 3px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #000;
+}
+
+.left a.active {
+    background: #E7F3F2;
+}
+
+.middle {
+    flex-basis: 55%;
+}
+
+.middle img {
+    width: 100%;
+}
+
+.social-media-icons ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.social-media-icons ul li {
+    padding: 5px 10px;
+    background: #48817A;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.social-media-icons i {
+    color: #fff;
+}
+
+.social-media-icons hr {
+    margin: 20px 0;
+}
+
+
+
+/* Comment Styling */
+.comments, .sub-comments {
+    padding: 15px;
+    border: 2px solid #D3D3D3;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.comments {
+    margin-top: 40px;
+}
+
+.commenter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+.commenter img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.article-author {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 40px 0;
+}
+
+.article-author img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+.right {
+    flex-basis: 20%;
+}
+
+.right p {
+    font-size: 13px;
+    margin: 15px 0;
+}
+
+.right .title {
+    font-size: 20px;
+}
+
+.articles-stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.articles-stats p {
+    margin: 0;
+}
+
+.right hr {
+    background: #000;
+    margin: 15px 0;
+    height: 3px;
+}
+
+.most-popular {
+    text-align: center;
+}
+
+.most-popular li {
+    margin: 15px 0;
+}
+
+.most-popular a {
+    font-size: 13px;
+    color: #000;
+}
+
+.about-side img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.height {
+    height: 85%;
+}
+
+.most-popular {
+    position: sticky;
+    top: 8rem;
+}
