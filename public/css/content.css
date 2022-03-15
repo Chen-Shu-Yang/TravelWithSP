@@ -7,9 +7,8 @@
 }
 
 .content .max-width {
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 80px 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .home-content h1{
@@ -42,6 +41,8 @@
 
 .left-content {
     border-right: 2px solid #D3D3D3;
+    position: sticky;
+    top: 10rem;
 }
 
 .left .content-list {
@@ -63,6 +64,15 @@
 
 .middle {
     flex-basis: 55%;
+}
+
+.table-of-content ol.toc {
+    margin-left: 20px;
+}
+
+.table-of-content ol.toc li {
+    list-style: auto !important;
+    list-style-type: auto !important;
 }
 
 .middle img {
@@ -195,4 +205,61 @@
 .most-popular {
     position: sticky;
     top: 8rem;
+}
+
+@media (max-width: 900px) {
+    .left {
+        display: none;
+    }
+
+    .middle {
+        flex-basis: 70%;
+    }
+
+    .right {
+        flex-basis: 25%;
+    }
+
+    .home-content h4 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 750px) {
+    .right {
+        display: none;
+    }
+
+    .article-content {
+        justify-content: center;
+    }
+
+    .middle {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .author-details p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .content .max-width {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .comment-section h2 {
+        font-size: 20px;
+    }
+
+    .comment-section .comments {
+        margin-top: 20px;
+    }
 }

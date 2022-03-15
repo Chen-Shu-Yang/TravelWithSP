@@ -16,11 +16,10 @@
     position: absolute;
     top: 100%;
     bottom: 0;
-    left: 8.1%;
+    left: 0;
     width: 180px;
     height: 3px;
     background: #111;
-    transform: translateX(-50%);
 }
 
 
@@ -116,4 +115,54 @@ input:focus {
 .part-2 .btn:hover {
     background: none;
     color: #091D36;
+}
+
+
+
+@media (max-width: 995px) {
+    .contact-content .part-2 {
+        flex-basis: 100%;
+    }
+
+    .about-side {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .about-side ul {
+        margin-left: 30px;
+    }
+
+    .about-side ul li {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 770px) {
+    .contact-content .part-2 {
+        width: 100%;
+    }
+
+    .about-side {
+        display: block;
+    }
+
+    .about-side ul {
+        margin-left: 0;
+    }
+
+    .about-side .profile-pic {
+        flex-basis: 30%;
+    }
+}
+
+@media (max-width: 400px) {
+    .name-email {
+        display: block;
+    }
+
+    .about-side ul li {
+        margin-right: 20px;
+    }
 }
