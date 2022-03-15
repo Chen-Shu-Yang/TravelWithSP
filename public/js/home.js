@@ -13,6 +13,37 @@ $(document).ready(function () {
         $('.menu-btn i').toggleClass("active");
     });
 
+    // toggle content table
+    $('#section-1').click(function () {
+        $('.content-items').removeClass("active");
+        $('#section-1').toggleClass("active");
+    });
+
+    $('#section-2').click(function () {
+        $('.content-items').removeClass("active");
+        $('#section-2').toggleClass("active");
+    });
+
+    $('#section-3').click(function () {
+        $('.content-items').removeClass("active");
+        $('#section-3').toggleClass("active");
+    });
+
+    $('#section-4').click(function () {
+        $('.content-items').removeClass("active");
+        $('#section-4').toggleClass("active");
+    });
+
+    $('#section-5').click(function () {
+        $('.content-items').removeClass("active");
+        $('#section-5').toggleClass("active");
+    });
+
+    $('#section-6').click(function () {
+        $('.content-items').removeClass("active");
+        $('#section-6').toggleClass("active");
+    });
+
     // typing animation
     var typed = new Typed(".typing", {
         strings: ["Parkistan", "Slovakia", "Russia", "Laos", "Germany", "Afganistan"],
